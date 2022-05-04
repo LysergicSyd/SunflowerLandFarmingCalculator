@@ -32,4 +32,8 @@ seeds = (
         )
 
 for seed in seeds:
-    print("Per " + str(seed.cycle) + " Minutes, " + str(seed.hours) + " Hours, " + str(seed.days) + " Days:\n" + seed.name + "\n# of Harvests: " + str(seed.harvest_count) + "\n Profit:" + str(seed.profit) + "\nCost:" + str(seed.cost) + "\n\n")
+    print("Per " + str(seed.cycle) + " Minutes, " + str(seed.hours)
+          + " Hours, " + str(seed.days) + " Days:\n" + seed.name
+          + "\n# of Harvests: " + str(seed.harvest_count) 
+          + "\n Profit:" + str(seed.profit) + "\nCost:" + str(seed.cost)
+          + "\n\n")
